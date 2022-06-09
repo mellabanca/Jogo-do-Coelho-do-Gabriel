@@ -12,4 +12,7 @@ class Restricao{
         })
         World.add(engine.world,this.ligacao);
     }
+    separar (){
+        World.remove(engine.world,this.ligacao);
+    }
 }
